@@ -73,7 +73,11 @@ export const FormPage = () => {
               placeholder="山田太郎"
               variant={username.errors ? "error" : "primary"}
             />
-            {username.errors && <p className="mt-1 text-sm text-red-600">{username.errors[0]}</p>}
+            {username.errors && (
+              <p className="mt-1 text-sm text-red-600" id={`${username.id}-error`}>
+                {username.errors[0]}
+              </p>
+            )}
           </div>
 
           <div>
