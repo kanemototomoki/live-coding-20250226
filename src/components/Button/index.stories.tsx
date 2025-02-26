@@ -27,7 +27,6 @@ export const Primary: Story = {
   args: {
     variant: "primary",
     children: "Primary Button",
-    className: "text-red-500",
   },
 };
 
