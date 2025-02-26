@@ -27,7 +27,10 @@
   - テスト
     - integration test (インテグレーションテスト)
     - a11y test (アクセシビリティテスト)
-      - accessibility -> a11y
+      - a11y -> accessibility
+        - i18n -> internationalization (国際化)
+        - k8s -> kubernetes (コンテナオーケストレーションツール)
+        - e18e -> ecosystem performance (エコシステムのパフォーマンス向上)
       - スクリーンリーダー
     - Visual Regression Test (ヴィジュアルリグレッションテスト)
 
