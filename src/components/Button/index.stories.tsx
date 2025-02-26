@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { Button } from ".";
+import { expect, within } from "@storybook/test";
 
 const meta = {
   title: "Components/Button",
@@ -27,6 +28,13 @@ export const Primary: Story = {
   args: {
     variant: "primary",
     children: "Primary Button",
+  },
+  play: async ({ step, canvasElement }) => {
+    const canvas = within(canvasElement);
+
+    await step("クリック可能なこと", async () => {
+      await expect(await canvas.findByRole("button")).toBeEnabled();
+    });
   },
 };
 

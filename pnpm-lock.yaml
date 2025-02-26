@@ -48,6 +48,9 @@ importers:
       '@storybook/addon-essentials':
         specifier: ^8.6.0
         version: 8.6.0(@types/react@19.0.10)(storybook@8.6.0)
+      '@storybook/addon-interactions':
+        specifier: ^8.6.0
+        version: 8.6.0(storybook@8.6.0)
       '@storybook/addon-onboarding':
         specifier: ^8.6.0
         version: 8.6.0(storybook@8.6.0)
@@ -717,6 +720,11 @@ packages:
 
   '@storybook/addon-highlight@8.6.0':
     resolution: {integrity: sha512-xgSUzNV8ZpNDJ35bLz7wfg/q7/O/C5845wbZsn+PobUOWpOMOKeZwbGkO3Fh4+CWKeFuMhUpFiZSWkNgT+bV0g==}
+    peerDependencies:
+      storybook: ^8.6.0
+
+  '@storybook/addon-interactions@8.6.0':
+    resolution: {integrity: sha512-AgobFrUxmKgGHKeOismuLZdXlndP3ZDquHztiomfMiu01xOqNPxG0+xoCcegvftU7hKE+TlBRzhjCWg/bFz4LQ==}
     peerDependencies:
       storybook: ^8.6.0
 
@@ -3105,6 +3113,15 @@ snapshots:
     dependencies:
       '@storybook/global': 5.0.0
       storybook: 8.6.0
+
+  '@storybook/addon-interactions@8.6.0(storybook@8.6.0)':
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/instrumenter': 8.6.0(storybook@8.6.0)
+      '@storybook/test': 8.6.0(storybook@8.6.0)
+      polished: 4.3.1
+      storybook: 8.6.0
+      ts-dedent: 2.2.0
 
   '@storybook/addon-measure@8.6.0(storybook@8.6.0)':
     dependencies:
