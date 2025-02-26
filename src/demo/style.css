@@ -68,3 +68,11 @@ button:active {
 p {
 	color: #666;
 }
+
+.bg-blue {
+	background-color: #357abd;
+}
+
+.d-flex {
+	display: flex;
+}
