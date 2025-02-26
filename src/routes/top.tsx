@@ -12,6 +12,9 @@ export default function Top() {
             <li>
               <NavLink to="/form">Form</NavLink>
             </li>
+            <li>
+              <NavLink to="/counter">Counter</NavLink>
+            </li>
           </ul>
         </nav>
       </div>
