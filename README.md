@@ -26,6 +26,9 @@
   - カタログ
   - テスト
     - integration test (インテグレーションテスト)
+    - a11y test (アクセシビリティテスト)
+      - accessibility -> a11y
+      - スクリーンリーダー
     - Visual Regression Test (ヴィジュアルリグレッションテスト)
 
 ## 参考
