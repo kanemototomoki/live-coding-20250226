@@ -3,8 +3,8 @@
 テーマはStorybookを用いたモダンなフロントエンド開発。
 
 ## デプロイしたページ
-app: https://live-coding-20250226-app.pages.dev/
-storybook: https://live-coding-20250226-storybook.pages.dev/
+- app: https://live-coding-20250226-app.pages.dev/
+- storybook: https://live-coding-20250226-storybook.pages.dev/
 
 ## 使用するライブラリ・ツールなど
 | ライブラリ/ツール | バージョン | 説明 |
